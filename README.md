@@ -3,7 +3,6 @@
 This is a simple Arduino project which displays the time, temperature, humidity and CO2 levels on the Pimoroni Galactic Unicorn. I ported the code from the RPI Pico SDK project to build directly on the Arduino IDE. The idea was to have a non-moving display of useful info which also respects your eyeballs at night. Between the hours of 11PM and 10AM, the display is set dim enough to not light up your bedroom, but still visible.<br>
 Here's how it looks during the day. There aren't enough pixels to display units, so green=time, yellow=temperature in Celcius, magenta=humidity in percent and red is CO2 in parts per million. Of course you are free to modify any and all of this code.<br>
 I included all of the dependent code (my libraries) in this repo so that there will be no issue with version conflicts.<br>
-
 <br>
 ![JPEGDEC](/galactic_demo.jpg?raw=true "Galactic Unicorn")
 <br>
