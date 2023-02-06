@@ -6,8 +6,8 @@
 #include "pico_graphics.hpp"
 #include "galactic_unicorn.hpp"
 #include "okcolor.hpp"
-#include <SCD41.h>
-#include <rtc_eeprom.h>
+#include "SCD41.h"
+#include "rtc_eeprom.h"
 
 #define SDA_PIN 4
 #define SCL_PIN 5
